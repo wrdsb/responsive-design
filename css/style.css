@@ -33,7 +33,16 @@ a {
 	border-left:0px;
 	border-right:0px;
 	border-bottom:0px;
-	margin-bottom:10px;
+	margin-bottom:0px;
+}
+.my-sub-navbar {
+	background-color:#fff;
+	border-radius:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	margin-bottom:0px;
+	min-height:1px;
 }
 .nav-justified > li > a {
 	line-height:28px;
@@ -292,16 +301,37 @@ a.navbar-brand {
 		position:relative;
 		height:55px;
 	}
-	a.navbar-brand {
+	.sub-navbar-header {
+		position:relative;
+	}
+	.navbar-header a.navbar-brand {
 		font-size:14px;
 		padding-left:58px;
 		font-weight:bold;
 		margin-top:7px;
 	}
-	.togglenav {
+	.sub-navbar-header span {
+		font-size:14px;
+		font-weight:bold;
+		color:#000;
+		display:inline-block;
+	}
+	.navbar-header .togglenav {
 		background-color:transparent;
 		right:40px;
 		top:9px;
+	}
+
+	.sub-navbar-header .navbar-toggle .icon-bar {
+		background-color:#000;
+	}
+	.sub-navbar-header .navbar-toggle {
+		position: inherit;
+		background-color: transparent;
+	}
+	.toogle-subnav {
+		background-color:transparent;
+		display:inline-block;
 	}
 	.togglesearch {
 		background-color:transparent;
