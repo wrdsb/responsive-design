@@ -237,6 +237,24 @@ h6.copyright {
 a.navbar-brand {
 	display:none;
 }
+.sub-menu-items {
+	padding:8px;
+	background-color:#CCDFEE;
+}
+.sub-menu-items ul {
+	padding-left:0px;
+	list-style: none;
+}
+.sub-menu-items ul li {
+	margin-bottom:6px;
+}
+.sub-menu-heading {
+	background-color:#005daa;
+	color:#fff;
+	padding:8px;
+	font-weight:bold;
+	font-size:20px;
+}
 @media (max-width: 768px) {
 	.header {
 		display:none;
