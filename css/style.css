@@ -33,7 +33,7 @@ a {
 	border-left:0px;
 	border-right:0px;
 	border-bottom:0px;
-	margin-bottom:0px;
+	margin-bottom:10px;
 }
 .my-sub-navbar {
 	background-color:#fff;
@@ -43,6 +43,9 @@ a {
 	border-bottom:0px;
 	margin-bottom:0px;
 	min-height:1px;
+}
+.my-sub-navbar .navbar-brand {
+	float:none;
 }
 .nav-justified > li > a {
 	line-height:28px;
@@ -243,7 +246,7 @@ h6.copyright {
 	content:"all day";
 	padding:0 4px;
 }
-a.navbar-brand {
+.navbar-brand {
 	display:none;
 }
 .sub-menu-items {
@@ -264,6 +267,9 @@ a.navbar-brand {
 	font-weight:bold;
 	font-size:20px;
 }
+.breadcrumb {
+	margin-bottom:6px;
+}
 @media (max-width: 768px) {
 	.header {
 		display:none;
@@ -281,6 +287,7 @@ a.navbar-brand {
 
 	.my-navbar {
 		color:#fff;
+		margin-bottom:0px;
 	}
 	.my-navbar a {
 		color:#fff;
@@ -311,7 +318,7 @@ a.navbar-brand {
 		margin-top:7px;
 	}
 	.sub-navbar-header span {
-		font-size:14px;
+		font-size:16px;
 		font-weight:bold;
 		color:#000;
 		display:inline-block;
@@ -344,6 +351,9 @@ a.navbar-brand {
 		color:#333;
 	}
 	.container-top {
+		padding:0px;
+	}
+	.container-breadcrumb {
 		padding:0px;
 	}
 	.jumptron h1 {
